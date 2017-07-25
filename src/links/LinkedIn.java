@@ -13,8 +13,8 @@ public class LinkedIn {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.linkedin.com");
-		driver.findElement(By.xpath("//*[@id='login-email']")).sendKeys("sruthiqa59@gmail.com");
-		driver.findElement(By.xpath("//*[@id='login-password']")).sendKeys("Myiphone999!");
+		driver.findElement(By.xpath("//*[@id='login-email']")).sendKeys("********");
+		driver.findElement(By.xpath("//*[@id='login-password']")).sendKeys("*****");
 		driver.findElement(By.xpath("//*[@id='login-submit']")).click();
 		driver.findElement(By.xpath("//*[@id='mynetwork-tab-icon']")).click();
 		driver.findElement(By.cssSelector("//*[@id='ember5219']/ul/li[1]/div[2]/button[1]")).click();

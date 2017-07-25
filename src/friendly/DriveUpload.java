@@ -27,7 +27,7 @@ public class DriveUpload {
 	
 		@Test(priority = 2)
 		public static void Mail() throws Exception {
-		driver.findElement(By.xpath("//input[@aria-label='Email or phone']")).sendKeys("sphoorthi.qa@gmail.com");
+		driver.findElement(By.xpath("//input[@aria-label='Email or phone']")).sendKeys("***Mail***");
 				
 		driver.findElement(By.xpath(".//*[@id='identifierNext']/content/span")).click();
 		Thread.sleep(2000);
@@ -35,7 +35,7 @@ public class DriveUpload {
 		
 		@Test(priority = 3)
 		public static void Password() throws Exception {
-		driver.findElement(By.xpath("//*[@aria-label='Enter your password']")).sendKeys("Tendulkar10");
+		driver.findElement(By.xpath("//*[@aria-label='Enter your password']")).sendKeys("***Pass***");
 		driver.findElement(By.xpath("//*[@id='passwordNext']/content/span")).click();
 		Thread.sleep(2000);
 		}
